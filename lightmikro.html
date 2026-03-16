@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link rel="icon" href="g.ico">
+<meta charset="UTF-8">
+<title>Методы измерения физических величин</title>
+
+<style>
+.fig {
+    text-align: center;
+   }
+    
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh);}
+
+.left {
+    width: 33.33%;
+    background: #092551;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid #444;
+    overflow-y: auto;
+}
+
+.category {
+    margin-bottom: 15px;
+}
+
+.category-title {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.category-title:hover {
+    text-decoration: underline;
+}
+
+.subpage {
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.subpage:hover {
+    text-decoration: underline;
+}
+
+.right {
+    width: 66.66%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.telegram-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #0088cc;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+ a {
+    text-decoration: none;
+   }
+   a:hover {
+    text-decoration: underline;
+   }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="left">
+        <ul id="nav"></ul>
+        <p style=" margin-bottom: 10px"><a href="index.html" style="color: #ffffff;">Главная страница</a></p>
+        <p style=" margin-top: 10px"><a href="speeds.html" style="color: #ffffff;">Скорости</a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="lightmikro.html" style="color: #ffffff;"><small>Способ измерения скорости света с помощью микроволновки</small></a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="velocityearth.html" style="color: #ffffff;"><small>Cкорость вращения земли </small></a></p>
+        <p style=" margin-top: 10px"><a href="size.html" style="color: #ffffff;">Размеры</a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="atomsize.html" style="color: #ffffff;"><small>Размер молекулы</small></a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="sizeearth.html" style="color: #ffffff;"><small>Размер земли</small></a></p>
+        <p style=" margin-top: 10px"><a href="distanse.html" style="color: #ffffff;">Расстояния</a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="earthtothemoon.html" style="color: #ffffff;"><small>Расстояние до луны с помощью монетки</small></a></p>
+    </div>
+
+    <div class="right" id="content">
+        <div id="home" class="page editable">
+            <h2>Способ измерения скорости света с помощью микроволновки</h2>
+            <p style="text-indent: 30px">Для измерения скорости света не выходя из квартиры вам понадобятся: микроволновая печь, большая плитка шоколада или сырный ломтик, линейка.</p>
+            <p style="text-indent: 30px">В основе принципа действия лежит использование электромагнитных волн, испускаемых магнетроном микроволновой печи. В ходе функционирования устройства возникает стоячая волна, характеризующаяся периодическим чередованием областей с максимальной и минимальной интенсивностью нагрева. Это приводит к неравномерному прогреву продуктов: наиболее интенсивно они нагреваются в зонах с высокой напряжённостью поля, наименее — в зонах с низкой.</p>
+            <p class="fig"><img src="microvoln.png" 
+     width="300" 
+     height="200"></p>
+            <p style="text-indent: 30px">Ход работы:</p>
+            <ol>
+    <li>Удалить поворотный столик, чтобы еда оставалась неподвижной во время работы микроволновки.</li>
+    <li>Поместить шоколад или сыр на плоскую тарелку и поставить в микроволновку.</li>
+    <li>Включить устройство на минимальной мощности примерно на 20–30 секунд. На поверхности продукта появятся характерные полосы плавления — это и есть места максимальной интенсивности электромагнитных волн.</li>
+    <li>Измерить расстояние между соседними полосами плавления — это будет половина длины волны (λ/2). Чтобы получить полную длину волны, умножить полученное значение на два.</li>
+    <p class="fig"><img src="chocolat.png" 
+     alt="Логотип Skillbox" 
+     width="300" 
+     height="200"></p>
+    <li>Далее расчет: Скорость света (v) = длина волны (λ) × частота микроволнового излучения (f) (частота обычно указана на задней панели микроволновки)</li>
+</ol>
+        </div>
+    </div>
+
+</div>
+
+<a class="telegram-btn" href="https://t.me/predloshka_dlia_saita_bot" target="_blank">
+    предложка
+</a>
+
+</body>
+</html>

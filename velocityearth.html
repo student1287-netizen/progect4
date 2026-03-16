@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link rel="icon" href="g.ico">
+<meta charset="UTF-8">
+<title>Методы измерения физических величин</title>
+
+<style>
+.fig {
+    text-align: center;
+   }    
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh);}
+
+.left {
+    width: 33.33%;
+    background: #092551;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid #444;
+    overflow-y: auto;
+}
+
+.category {
+    margin-bottom: 15px;
+}
+
+.category-title {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.category-title:hover {
+    text-decoration: underline;
+}
+
+.subpage {
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.subpage:hover {
+    text-decoration: underline;
+}
+
+.right {
+    width: 66.66%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.telegram-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #0088cc;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+ a {
+    text-decoration: none;
+   }
+   a:hover {
+    text-decoration: underline;
+   }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="left">
+        <ul id="nav"></ul>
+        <p style=" margin-bottom: 10px"><a href="index.html" style="color: #ffffff;">Главная страница</a></p>
+        <p style=" margin-top: 10px"><a href="speeds.html" style="color: #ffffff;">Скорости</a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="lightmikro.html" style="color: #ffffff;"><small>Способ измерения скорости света с помощью микроволновки</small></a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="velocityearth.html" style="color: #ffffff;"><small>Cкорость вращения земли </small></a></p>
+        <p style=" margin-top: 10px"><a href="size.html" style="color: #ffffff;">Размеры</a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="atomsize.html" style="color: #ffffff;"><small>Размер молекулы</small></a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="sizeearth.html" style="color: #ffffff;"><small>Размер земли</small></a></p>
+        <p style=" margin-top: 10px"><a href="distanse.html" style="color: #ffffff;">Расстояния</a></p>
+    <p style="margin-left: 20px; margin-top: 0px; margin-bottom: 1px "><a href="earthtothemoon.html" style="color: #ffffff;"><small>Расстояние до луны с помощью монетки</small></a></p>
+    </div>
+
+    <div class="right" id="content">
+        <div id="home" class="page editable">
+            <h2>Линейная скорость вращения земли вокруг своей оси</h2>
+            <p style="text-indent: 30px">Земля совершает один оборот за 23 часа 56 минут и 4.09053 секунды, что называется звездным периодом. Окружность планеты равна 40 075 километров. Для того, чтобы рассчитать скорость, потребуется разделить окружность на время. Но кружность планеты меняется в зависимости от широты, так как расстояние от оси вращения до поверхности становится меньше ближе к полюсам. Поэтому планета кружится с разной скоростью на разных широтах! Чем меньше радиус, тем меньше скорость. Так на Северном полюсе и Южном полюсе скорость вращения практически равна нулю. </div></p>
+            <p style="text-indent: 30px">Для того чтобы  узнать скорость вращения, которая может достигаться на иной широте, то для это потребуется лишь умножить косинус этой широты  на скорость вращения планеты на экваторе (1674 км/ч её можно вычислить из прошлого абзаца). Так если вы считаете скорость вращения на широте 45 то косинус 45 равен 0,7071 и получатся, что скорость на этой широте: 1674х0,7071=1183,7 км/ч.</p>
+            <p class="fig"><img src="earth.png" 
+     width="200" 
+     height="200"></p>
+        </div>
+    </div>
+
+</div>
+
+<a class="telegram-btn" href="https://t.me/predloshka_dlia_saita_bot" target="_blank">
+    предложка
+</a>
+
+</body>
+</html>
